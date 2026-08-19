@@ -386,7 +386,7 @@ Testing important user journeys:
 - [x] Architecture design
 - [x] ERD
 - [x] CI/CD strategy
-- [ ] Repository setup
+- [X] Repository setup
 - [ ] React project
 - [ ] ASP.NET Core solution
 - [ ] PostgreSQL
