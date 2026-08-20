@@ -1,0 +1,12 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Waymates.Api/Waymates.Api.csproj" />
+    <Project Path="src/Waymates.Application/Waymates.Application.csproj" />
+    <Project Path="src/Waymates.Domain/Waymates.Domain.csproj" />
+    <Project Path="src/Waymates.Infrastructure/Waymates.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/Waymates.IntegrationTests/Waymates.IntegrationTests.csproj" />
+    <Project Path="tests/Waymates.UnitTests/Waymates.UnitTests.csproj" />
+  </Folder>
+</Solution>

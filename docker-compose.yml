@@ -1,0 +1,16 @@
+services:
+  postgres:
+    image: postgres:18
+    container_name: waymates-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: waymates
+      POSTGRES_USER: waymates
+      POSTGRES_PASSWORD: waymates_dev_password
+    ports:
+      - "5432:5432"
+    volumes:
+      - waymates-postgres-data:/var/lib/postgresql/data
+
+volumes:
+  waymates-postgres-data:
