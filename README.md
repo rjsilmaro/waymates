@@ -388,9 +388,9 @@ Testing important user journeys:
 - [x] CI/CD strategy
 - [X] Repository setup
 - [ ] React project
-- [ ] ASP.NET Core solution
-- [ ] PostgreSQL
-- [ ] Docker
+- [X] ASP.NET Core solution
+- [X] PostgreSQL
+- [X] Docker
 - [ ] Initial GitHub Actions pipeline
 - [ ] First deployment
 
