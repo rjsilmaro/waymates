@@ -392,7 +392,7 @@ Testing important user journeys:
 - [X] PostgreSQL
 - [X] Docker
 - [X] Initial GitHub Actions pipeline
-- [ ] First deployment
+- [X] First deployment
 
 ### Phase 2 — Authentication
 
