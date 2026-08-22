@@ -387,11 +387,11 @@ Testing important user journeys:
 - [x] ERD
 - [x] CI/CD strategy
 - [X] Repository setup
-- [ ] React project
+- [X] React project
 - [X] ASP.NET Core solution
 - [X] PostgreSQL
 - [X] Docker
-- [ ] Initial GitHub Actions pipeline
+- [X] Initial GitHub Actions pipeline
 - [ ] First deployment
 
 ### Phase 2 — Authentication
