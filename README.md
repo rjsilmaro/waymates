@@ -6,11 +6,11 @@ Waymates is a collaborative travel planning application designed for friends tra
 
 It brings trip planning, interactive maps, group expenses, settlements, and optional location sharing into one place.
 
-> 🚧 **Status: In Development**
+> **Status: In Development**
 
 ---
 
-## ✈️ What is Waymates?
+## What is Waymates?
 
 Planning a trip with friends usually means jumping between several apps:
 
@@ -24,7 +24,7 @@ Waymates aims to bring those experiences together.
 
 The application is designed around two complementary experiences:
 
-### 🖥️ Web — Planning Workspace
+### Web — Planning Workspace
 
 Designed primarily for planning and managing a trip:
 
@@ -37,7 +37,7 @@ Designed primarily for planning and managing a trip:
 - Trip member management
 - Live location viewing
 
-### 📱 Mobile — Travel Companion
+### Mobile — Travel Companion
 
 Designed for use while traveling:
 
@@ -53,9 +53,9 @@ Both clients share the same backend and data.
 
 ---
 
-## ✨ Planned Features
+## Planned Features
 
-### 🧳 Trip Management
+### Trip Management
 
 - Create and manage trips
 - Invite friends
@@ -63,7 +63,7 @@ Both clients share the same backend and data.
 - Trip settings
 - Configurable settlement currency
 
-### 🗓️ Itinerary Planning
+### Itinerary Planning
 
 - Day-by-day itinerary
 - Multiple plans/groups on the same day
@@ -71,7 +71,7 @@ Both clients share the same backend and data.
 - Activity participants
 - Saved places linked to activities
 
-### 🗺️ Maps & Places
+### Maps & Places
 
 - Interactive maps
 - Search for places
@@ -81,7 +81,7 @@ Both clients share the same backend and data.
 - Walking/driving/cycling directions
 - Open routes in Google Maps or Apple Maps
 
-### 💰 Expenses & Settlements
+### Expenses & Settlements
 
 - Record group expenses
 - Multiple currencies
@@ -94,7 +94,7 @@ Both clients share the same backend and data.
 - Support settlements made in a different currency
 - Exchange-rate tracking
 
-### 📍 Location Sharing
+### Location Sharing
 
 Location sharing is intentionally **session-based** rather than automatically expiring at midnight.
 
@@ -108,7 +108,7 @@ Members can:
 
 Location sharing is only available to appropriate members of the same trip while sharing is active.
 
-### ⚡ Realtime
+### Realtime
 
 SignalR will provide realtime updates for:
 
@@ -118,7 +118,7 @@ SignalR will provide realtime updates for:
 - Expense updates
 - Member changes
 
-### 📶 Offline
+### Offline
 
 The initial release will provide basic cached/read-only access to important trip data.
 
@@ -126,7 +126,7 @@ Full offline mutation and synchronization is planned for a later phase.
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 Waymates uses a **modular monolith** architecture.
 
@@ -190,7 +190,7 @@ This also leaves the option to extract individual modules into services later if
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### Web
 
@@ -248,19 +248,19 @@ This also leaves the option to extract individual modules into services later if
 
 For the complete architecture specification:
 
-[📘 View the Waymates Architecture Blueprint](./docs/architecture/Waymates_Architecture_Blueprint_v1.0.md)
+[View the Waymates Architecture Blueprint](./docs/architecture/Waymates_Architecture_Blueprint_v1.0.md)
 
 ---
 
-## 📱 Responsive Design
+## Responsive Design
 
 Waymates has three UI targets:
 
 | Platform | Primary Purpose |
 |---|---|
-| 🖥️ Desktop Web | Trip planning and management |
-| 📱 Responsive Web | Quick access from phones/tablets |
-| 📱 Native Mobile | Travel companion and device capabilities |
+| Desktop Web | Trip planning and management |
+| Responsive Web | Quick access from phones/tablets |
+| Native Mobile | Travel companion and device capabilities |
 
 The responsive web application will adapt its layout rather than simply shrinking the desktop interface.
 
@@ -268,7 +268,7 @@ The native mobile application will handle capabilities that require deeper devic
 
 ---
 
-## 🔐 Security
+## Security
 
 Waymates uses:
 
@@ -287,7 +287,7 @@ A user's location is only available to appropriate members of the same trip whil
 
 ---
 
-## 🚀 CI/CD & Deployment
+## CI/CD & Deployment
 
 The planned deployment pipeline is:
 
@@ -339,7 +339,7 @@ Azure may be explored later as an additional cloud deployment exercise.
 
 ---
 
-## 🧪 Testing Strategy
+## Testing Strategy
 
 The project will include:
 
@@ -377,7 +377,7 @@ Testing important user journeys:
 
 ---
 
-## 🗺️ Roadmap
+## Roadmap
 
 ### Phase 1 — Foundation
 
@@ -472,7 +472,7 @@ Testing important user journeys:
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 The planned repository structure is:
 
@@ -507,7 +507,7 @@ waymates/
 
 ---
 
-## 🎯 Project Goals
+## Project Goals
 
 Waymates is being developed as both:
 
@@ -533,9 +533,9 @@ The project is intended to demonstrate practical experience with:
 
 ---
 
-## 📌 Project Status
+## Project Status
 
-**🚧 In Development**
+**In Development**
 
 The product design, UX direction, architecture, and initial data model have been established.
 
@@ -543,6 +543,6 @@ Implementation is now beginning with the project foundation.
 
 ---
 
-## 📄 License
+## License
 
 License to be determined.
