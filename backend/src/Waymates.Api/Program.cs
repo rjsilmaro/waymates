@@ -4,12 +4,17 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddInfrastructure(builder.Configuration);
 
+var allowedOrigins =
+    builder.Configuration
+        .GetSection("Cors:AllowedOrigins")
+        .Get<string[]>() ?? [];
+
 builder.Services.AddCors(options =>
 {
-    options.AddPolicy("DevelopmentCors", policy =>
+    options.AddPolicy("AppCors", policy =>
     {
         policy
-            .WithOrigins("http://localhost:5173")
+            .WithOrigins(allowedOrigins)
             .AllowAnyHeader()
             .AllowAnyMethod();
     });
@@ -24,7 +29,7 @@ if (!string.IsNullOrWhiteSpace(port))
 
 var app = builder.Build();
 
-app.UseCors("DevelopmentCors");
+app.UseCors("AppCors");
 
 app.MapGet("/api/health", () =>
 {
